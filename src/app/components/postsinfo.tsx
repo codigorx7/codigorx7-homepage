@@ -10,7 +10,7 @@ const cardinfo = () => {
     <div className={card.postfeed}>
       <div className={`${card.cardblog} ${card.cardHover}`}>
 
-      <Link href="/posts/websites-goals">
+      <Link href="/posts/objetivos-do-site">
         <div className={card.headerblog}>
           <div className={card.idblog}>
             109461771

@@ -38,7 +38,7 @@
                   <p className={styles.paragraph}>Por fim, desenvolvemos seu site e lhe damos funcionalidade, incorporando as estratégias e designs acordados. Configuramos o Google Analytics para monitorar o desempenho e lançamos o site com um relatório SEO detalhado. Isso garante um bom começo, com todas as ferramentas necessárias para ter uma presença sólida na internet.
                   </p>
               </div>
-              <button className={styles.sharedButton} onClick={openFormInNewTab}>Entre em contato!</button>
+              <button className={styles.sharedButton} onClick={openFormInNewTab}>Solicitar orçamento!</button>
               </div>
       </Layout>
     );

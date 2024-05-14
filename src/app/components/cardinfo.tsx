@@ -8,7 +8,7 @@ const cardinfo = () => {
                     
   <div className={card.main}>
     <div className={card.postfeed}>
-    <Link href="/desenvolvimiento">
+    <Link href="/desenvolvimento">
       <div className={`${card.card} ${card.cardHover}`}>
         <div className={card.header}>
           <div className={card.id}>
