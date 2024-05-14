@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import RX7 from '../../../public/assets/images/codigorx7_vector.png';
+import RX7 from '../../../public/assets/images/codigorx7.jpg';
 import * as nav from '../../styles/styles.css';
 import WhatsApp from '../components/whatsapp';
 import "../globals.css";

@@ -16,7 +16,7 @@ const About = () => {
       <div className={styles.hero}></div>
       <div className={styles.content}>
         <div className={styles.profileContainer}>
-          <Image src={Mountain} alt="Montanha com um caminho para o topo" loading='lazy' className={styles.profileImage} />
+          <Image src={Mountain} alt="Montanha com um caminho para o topo" className={styles.profileImage} />
           <div className={styles.textAbout}>
             <h2 className={styles.heading}>CODIGORX7</h2>
             <p className={styles.paragraph}>

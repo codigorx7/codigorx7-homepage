@@ -26,7 +26,7 @@ const CibersecurityConsulting = () => {
                 </p>
               </div>
               <div className={styles.section}>
-              <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" loading='lazy' className={styles.img} />
+              <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" className={styles.img} />
                
                 <p className={styles.paragraph}>
                  <strong>Inclui</strong>
