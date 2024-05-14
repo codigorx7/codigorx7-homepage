@@ -26,12 +26,10 @@ const Index = () => {
             <div className={styles.section}>
               <p className={styles.paragraph}>
               Toda empresa séria deve ter um site.
-              <CSSTransition in={showPorque} timeout={250} classNames="porque" unmountOnExit>
+             
               <strong> Por quê?</strong>
-              </CSSTransition>
               </p>
             </div>
-            <CSSTransition in={showContent} timeout={500} classNames="fade" unmountOnExit>
               <div>
                 <div className={styles.section}>
                   <h3 className={styles.heading}>Credibilidade</h3>
@@ -91,7 +89,6 @@ const Index = () => {
                 <button className={styles.sharedButton}>Adquirir agora!</button>
                 </Link>
               </div>
-            </CSSTransition>
           </div>
         </div>
         <Card />
