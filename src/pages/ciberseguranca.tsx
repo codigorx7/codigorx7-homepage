@@ -67,6 +67,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ title, price, featuresList, o
 };
 
 const CibersecurityConsulting = () => {
+  
   return (
     <Layout>
       <div className={styles.hero}></div>
@@ -75,6 +76,9 @@ const CibersecurityConsulting = () => {
           <h2 className={styles.heading}>Hoje em dia, grande parte de nossas atividades acontece digitalmente.</h2>
           <p className={styles.paragraph}>
             <b>Isso nos traz muita comodidade.</b> Também alguns riscos para nossa segurança na vida real.
+            <br />
+            <br />
+            <a href="#exemplos-vida-real" className={styles.sharedButton}>Quais são os riscos?</a>
             <br />
             <br />
               <b>Você aprenderá durante o processo e receberá um manual prático para gerenciar sua defesa digital.</b>
@@ -88,11 +92,13 @@ const CibersecurityConsulting = () => {
           <PricingCard title="Serviço Essencial" price="129R$" featuresList={features.essencial} oldPrice="150R$" />
           <PricingCard title="Serviço Completo" price="249R$" featuresList={features.completo} oldPrice="270R$" />
         </div>
+        <div className={styles.section} id="exemplos-vida-real">
+          </div>
       </div>
 
 
-        <div className={styles.section}>
-          <h2 className={styles.heading}>Situações cotidianas da vida real — Veja o que aconteceu com eles.</h2>
+        <div className={styles.section} >
+          <h2 className={styles.heading}>Situações cotidianas da vida real</h2>
           <h2 className={styles.heading}>Autenticação</h2>
           <p className={styles.paragraph}>
             Protegendo as credenciais de login de sua conta on-line.

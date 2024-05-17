@@ -16,7 +16,7 @@ const cardinfo = () => {
           </div>
           <div className={card.textcard}>
             <small className={card.textbase}>Serviços</small>
-            <h5 className={card.titlecard}>Desenvolvimento Web</h5>
+            <h5 className={card.titlecard}>Desenvolvimiento</h5>
           </div>
         </div>
         <div className={card.content}>
@@ -33,7 +33,7 @@ const cardinfo = () => {
             </div>
             <div className={card.textcard}>
               <small className={card.textbase}>Serviços</small>
-              <h5 className={card.titlecard}>Consultoria em Cibersegurança</h5>
+              <h5 className={card.titlecard}>Cibersegurança</h5>
             </div>
           </div>
           <div className={card.content}>
