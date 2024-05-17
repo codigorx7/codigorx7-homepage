@@ -61,7 +61,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ title, price, featuresList, o
         <p className={styles.pricingCardPrice}>{price}</p>
         {oldPrice && <span className={styles.oldPrice}>{oldPrice}</span>}
       </div>
-      <a href="https://wa.me/5538992582682" target="_blank" rel="noopener noreferrer" className={styles.pricingCardButton}>Obtener protección ahora!</a>
+      <a href="https://wa.me/5538992582682" target="_blank" rel="noopener noreferrer" className={styles.pricingCardButton}>Obtenha proteção agora!</a>
     </div>
   );
 };
