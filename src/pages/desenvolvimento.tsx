@@ -23,7 +23,7 @@
 
               <div className={styles.section}>
                 <h2 className={styles.heading}>I. Planejamento e design</h2>
-                <p className={styles.paragraph}>Começamos discutindo suas metas e requisitos e, em seguida, crio wireframes e designs detalhados no Figma para mapear a estrutura e a aparência do seu site. Isso nos ajuda a entender sua ideia e a garantir que o design do site esteja alinhado com suas necessidades. <br/>— O resto flui a partir daí.
+                <p className={styles.paragraph}>Começamos discutindo suas metas e requisitos e, em seguida, criamos wireframes e designs detalhados no para mapear a estrutura e a aparência do seu site. Isso nos ajuda a entender sua ideia e a garantir que o design do site esteja alinhado com suas necessidades. <br/>— O resto flui a partir daí.
                 </p>
               </div>
 

@@ -81,7 +81,7 @@ const CibersecurityConsulting = () => {
             <a href="#exemplos-vida-real" className={styles.sharedButton}>Quais são os riscos?</a>
             <br />
             <br />
-              <b>Você aprenderá durante o processo e receberá um manual prático para gerenciar sua defesa digital.</b>
+              <b>Configuramos tudo para você, aprenderá durante o processo e receberá um manual prático para gerenciar sua defesa digital.</b>
             <br />
             Com base nas melhores fontes de informação, muitas horas de tentativa e erro e treinamento acadêmico.
           </p>
