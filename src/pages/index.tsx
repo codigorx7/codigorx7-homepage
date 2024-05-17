@@ -34,45 +34,48 @@ const Index = () => {
                 <div className={styles.section}>
                   <h3 className={styles.heading}>Credibilidade</h3>
                   <ul className={styles.list}>
-                    <li>- Destaque-se de seus competidores.</li>
-                    <li>- Cause uma ótima primeira impressão.</li>
-                  </ul>
-                </div>
-                <div className={styles.section}>
-                  <h3 className={styles.heading}>Marca</h3>
-                  <ul className={styles.list}>
-                  <li>- Encontre facilmente informações sobre sua empresa que demonstrem qualidade e criem confiança.</li>
-                  </ul>
-                </div>
-                <div className={styles.section}>
-                  <h3 className={styles.heading}>Leads</h3>
-                  <ul className={styles.list}>
-                    <li>- Exiba claramente as informações de contato e garanta um retorno sobre o investimento (ROI) positivo.</li>
-                  </ul>
-                </div>
-                <div className={styles.section}>
-                  <h3 className={styles.heading}>Tráfego orgânico</h3>
-                  <ul className={styles.list}>
-                    <li>- Oportunidade de aparecer nos resultados de pesquisa do Google.</li>
-                    <li>- Aumentar sua base de clientes.</li>
-                  </ul>
-                </div>
-                <div className={styles.section}>
-                  <h3 className={styles.heading}>Marketing digital</h3>
-                  <ul className={styles.list}>
-                  <li>- Direcionar o tráfego para um site ou site de vendas</li>
-                  <li>- Use dados de tráfego passados para segmentar clientes qualificados de forma eficaz.</li>
-                  <li>- Busque o melhor retorno sobre o investimento para seus gastos com publicidade (ROI)</li>
+                    <li>• Destaque-se de seus competidores.</li>
+                    <li>• Cause uma ótima primeira impressão.</li>
                   </ul>
                 </div>
                 <div className={styles.section}>
                   <h3 className={styles.heading}>Economia de tempo + Atendimento ao cliente</h3>
                   <ul className={styles.list}>
-                  <li>- Aumente a produtividade interna e entregue aos clientes informações úteis sem a necessidade de telefonar, melhorando a experiência do usuário</li>
+                  <li>• Aumente a produtividade interna e entregue aos clientes informações úteis sem a necessidade de telefonar, melhorando a experiência do usuário</li>
                   <li></li>
                   <li></li>
                   </ul>
                 </div>
+                <div className={styles.section}>
+                  <h3 className={styles.heading}>Marketing digital</h3>
+                  <ul className={styles.list}>
+                  <li>• Direcionar o tráfego para um site ou site de vendas</li>
+                  <li>• Use dados de tráfego passados para segmentar clientes qualificados de forma eficaz.</li>
+                  <li>• Busque o melhor retorno sobre o investimento para seus gastos com publicidade (ROI)</li>
+                  </ul>
+                </div>
+                <div className={styles.section}>
+                  <h3 className={styles.heading}>Tráfego orgânico</h3>
+                  <ul className={styles.list}>
+                    <li>• Oportunidade de aparecer nos resultados de pesquisa do Google.</li>
+                    <li>• Aumentar sua base de clientes.</li>
+                  </ul>
+                </div>
+                <div className={styles.section}>
+                  <h3 className={styles.heading}>Marca</h3>
+                  <ul className={styles.list}>
+                  <li>• Encontre facilmente informações sobre sua empresa que demonstrem qualidade e criem confiança.</li>
+                  </ul>
+                </div>
+                <div className={styles.section}>
+                  <h3 className={styles.heading}>Leads</h3>
+                  <ul className={styles.list}>
+                    <li>• Exiba claramente as informações de contato e garanta um retorno sobre o investimento (ROI) positivo.</li>
+                  </ul>
+                </div>
+                
+                
+                
                 <div className={styles.section}>
                   <p className={styles.paragraph}>
                     <strong>Fonte:</strong>{' '}

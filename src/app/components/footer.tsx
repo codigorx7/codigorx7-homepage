@@ -16,7 +16,7 @@ const footer = () => {
     <div className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.footerText}>
-        Transparência <br />Trabalho <br />Paciência <br />Persistência 
+        Simplifique <br />Descomplique
         </div>
         <div className={styles.footerMenu}>
           <ul className={styles.navLinks}>
@@ -24,7 +24,7 @@ const footer = () => {
             <li className={styles.navLink}><Link href="desenvolvimento">Desenvolvimento Web</Link></li>
             <li className={styles.navLink}><Link href="/portfolio">Portfolio</Link></li>
             <li className={styles.navLink}><Link href="/sobre-nos">Sobre nos</Link></li>
-           <li className={styles.emailLink} onClick={() => copyToClipboard('codigorx7@gmail.com')} style={{ cursor: 'pointer' }}>Contato</li>
+           <li className={styles.navLink} onClick={() => copyToClipboard('codigorx7@gmail.com')} style={{ cursor: 'pointer' }}>Contato</li>
           </ul>
         </div>
         <div className={styles.footerLinks}>
@@ -51,7 +51,7 @@ const footer = () => {
     </div>
     <div className={styles.footerRights}>
         <div>
-          2024 © CODIGORX7
+          2024 © Codigo RX7
           <br/>
           Todos os direitos reservados.
           </div>

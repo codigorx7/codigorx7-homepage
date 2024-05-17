@@ -20,7 +20,8 @@ const About = () => {
           <div className={styles.textAbout}>
             <h2 className={styles.heading}>CODIGORX7</h2>
             <p className={styles.paragraph}>
-            <b>Nossa missão</b> é a transparência e nos colocarmos no seu lugar. Fazer de conta que o negócio deles é como se fosse o nosso, para o qual vamos criar um site ou aplicar estratégias de segurança cibernética para nós mesmos. 
+            <b>Nossa missão</b> e fazemos nosso melhor com a verdade e nos colocarmos no seu lugar. 
+                Fazer de conta que o negócio deles é como se fosse o nosso, como se estivéssemos criando um site ou implementando estratégias de segurança cibernética para nós mesmos. 
             <br />
             <br />
             Transparência, trabalho, paciência e persistência. <b>Esses são os nossos valores.</b>

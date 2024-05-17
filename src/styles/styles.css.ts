@@ -10,6 +10,7 @@ const desktopFontSize = '100px';
 
 export const logo = style({
   justifyContent: 'flex-start',
+  paddingTop: '15px',
 
 });
 
@@ -213,6 +214,22 @@ export const sharedButton = style({
   },
 });
 
+export const cibersegurancaButton = style({
+  width: 'fit-content', 
+  backgroundColor: '#f4f4ed',
+  color: '#201e1b',
+  fontSize: '1rem',
+  padding: '.5rem 1rem',
+  marginBottom: '.5rem',
+  marginLeft: '1rem',
+  borderColor: '#201e1b',
+  cursor: 'pointer',
+  transition: 'background-color 0.2s',
+  ':hover': {
+    backgroundColor: '#e5e5dc',
+  },
+});
+
 
 //______________________WORKS
 
@@ -256,6 +273,87 @@ export const techButton = style({
     backgroundColor: '#4f4942',
   },
 });
+
+//______________________CIBERSEGURANCA
+
+export const pricingCardContainer = style({
+  display: 'flex',
+  justifyContent: 'left',
+  alignItems: 'center',
+  flexWrap: 'wrap',
+  gap: '20px',
+});
+
+  const boxShadowColor = 'rgba(0, 0, 0, 0.1)';
+
+export const pricingCard = style({
+  backgroundColor: '#f4f4ed',
+  padding: '20px',
+  textAlign: 'center',
+  maxWidth: '300px',
+  borderColor: '#201e1b',
+  borderWidth: '1px', 
+  borderStyle: 'solid',
+  display: 'flex',
+  flexDirection: 'column',
+  transition: 'transform 0.3s ease-in-out',
+  ':hover': {
+    boxShadow: `4px 4px ${boxShadowColor}`,
+    transform: 'scale(1.03)',
+  },
+});
+
+export const priceContainer = style({
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginBottom: '20px',
+});
+
+export const pricingCardTitle = style({
+  fontSize: '24px',
+  marginBottom: '10px',
+});
+
+export const pricingCardPrice = style({
+  fontSize: '36px',
+  fontWeight: 'bold',
+  marginBottom: '20px',
+});
+
+
+export const oldPrice = style({
+  textDecorationLine: 'line-through',
+  color: 'gray',
+  marginLeft: '10px',
+  fontSize: '17px',
+});
+
+export const pricingCardFeatures = style({
+  listStyle: 'none',
+  padding: '0',
+  marginBottom: '20px',
+  textAlign: 'left',
+});
+
+export const pricingCardFeature = style({
+  marginBottom: '10px',
+});
+
+export const pricingCardButton = style({
+  backgroundColor: '#201e1b',
+  color: '#f4f4ed',
+  border: 'none',
+  padding: '10px 20px',
+  fontSize: '16px',
+  cursor: 'pointer',
+  marginTop: 'auto',
+  transition: 'backgroundColor 0.3s ease-in-out',
+  ':hover': {
+    backgroundColor: '#333',
+  },
+});
+
 
 //______________________POSTS
 export const headerPost = style({

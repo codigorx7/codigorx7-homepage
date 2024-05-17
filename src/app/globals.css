@@ -153,13 +153,13 @@ menu, ol, li, ul {
 
 
 .fade-in {
-  animation: fadeInAnimation 0.6s linear;
+  animation: fadeInAnimation 0.3s linear;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
 
 .fade-out {
-  animation: fadeOutAnimation 0.6s linear;
+  animation: fadeOutAnimation 0.3s linear;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
