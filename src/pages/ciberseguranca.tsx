@@ -24,7 +24,7 @@ const features = {
   ],
   completo: [
     {
-      text: <b>Serviço Essencial incluido.</b>,
+      text: <b>Pacote Essencial incluido.</b>,
     },
     {
       text: 'Configuração e otimização remota do seu sistema operacional (Windows ou Linux) e dispositivos.',
@@ -89,8 +89,8 @@ const CibersecurityConsulting = () => {
         <div className={styles.section}>
         <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" className={styles.img} />
         <div className={styles.pricingCardContainer}>
-          <PricingCard title="Serviço Essencial" price="129R$" featuresList={features.essencial} oldPrice="150R$" />
-          <PricingCard title="Serviço Completo" price="249R$" featuresList={features.completo} oldPrice="270R$" />
+          <PricingCard title="Pacote Essencial" price="68.99R$" featuresList={features.essencial} />
+          <PricingCard title="Paquetão Completo" price="129.99R$" featuresList={features.completo} />
         </div>
         <div className={styles.section} id="exemplos-vida-real">
           </div>
