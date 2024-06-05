@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Layout from '../app/layout';
 import * as styles from '../styles/styles.css';
-import Ciberseguranca from '../../public/assets/images/ciberseguranca.jpg';
+import Pacotes from '../../public/assets/images/pacotes.jpg';
 
 const features = {
   essencial: [
@@ -24,7 +24,7 @@ const features = {
   ],
   completo: [
     {
-      text: <b>Pacote Essencial incluido.</b>,
+      text: <b>Serviço Essencial incluido.</b>,
     },
     {
       text: 'Configuração e otimização remota do seu sistema operacional (Windows ou Linux) e dispositivos.',
@@ -87,10 +87,10 @@ const CibersecurityConsulting = () => {
           </p>
         </div>
         <div className={styles.section}>
-        <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" className={styles.img} />
+        <Image src={Pacotes} alt="Consultoria em Ciberseguraca" className={styles.img} />
         <div className={styles.pricingCardContainer}>
-          <PricingCard title="Pacote Essencial" price="68,99R$" featuresList={features.essencial} />
-          <PricingCard title="Paquetão Completo" price="129,99R$" featuresList={features.completo} />
+          <PricingCard title="Serviço Essencial" price="68,99R$" featuresList={features.essencial} />
+          <PricingCard title="Serviço Completo" price="129,99R$" featuresList={features.completo} />
         </div>
         <div className={styles.section} id="exemplos-vida-real">
           </div>

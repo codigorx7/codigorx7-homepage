@@ -198,6 +198,28 @@ export const img = style({
   },
 });
 
+export const imgcards = style({
+  maxWidth: '100%',
+  height: 'auto',
+  transition: 'box-shadow 0.3s, transform 0.3s',
+  cursor: 'pointer',
+  overflow: 'hidden',
+  userSelect: 'none',
+  padding: '0 4vmin',
+
+  '@media': {
+    '(max-width: 660px)': {
+      maxWidth: '90%',
+
+    },
+  },
+  selectors: {
+    '&:hover, &:active': {
+      transform: 'scale(1.03)',
+    },
+  },
+});
+
 export const sharedButton = style({
   width: 'fit-content', 
   backgroundColor: '#201e1b',

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../app/layout';
 import * as styles from '../../styles/styles.css'
-import Posts from '../../app/components/postsinfo';
+import Posts from '../../app/components/feed';
 import "../../app/globals.css";
 
 const Post1 = () => {

@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 import * as styles from '../styles/styles.css';
 import "../app/globals.css";
 import Link from 'next/link';
-import Card from '../app/components/cardinfo';
+import Posts from '../app/components/feed';
 import Layout from '../app/layout';
-import { CSSTransition } from 'react-transition-group';
+import Image from 'next/image';
+import Desenvolvimiento from '../../public/assets/images/desenvolvimiento.jpg';
+import Ciberseguranca from '../../public/assets/images/ciberseguranca.jpg';
+import Trabalhos from '../../public/assets/images/trabalhos.jpg';
+import Sobrenos from '../../public/assets/images/sobrenos.jpg';
+
 
 const Index = () => {
   const [showContent, setShowContent] = useState(false);
@@ -94,7 +99,18 @@ const Index = () => {
               </div>
           </div>
         </div>
-        <Card />
+        <Link href="/desenvolvimento">
+        <Image src={Desenvolvimiento} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
+        </Link>
+        <Link href="/ciberseguranca">
+        <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
+        </Link>
+        <Link href="/sobre-nos">
+        <Image src={Sobrenos} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
+        </Link>
+        <Link href="/portfolio">
+        <Image src={Trabalhos} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
+        </Link>
       </Layout>
     </>
   );

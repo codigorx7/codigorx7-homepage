@@ -14,13 +14,16 @@ const Nav = () => {
               <Image src={RX7} className={nav.logo} alt="O logotipo da Codigorx7, serviço de consultoria em cibersegurança e programação." style={{ width: '80px', height: 'auto', marginBottom: '-7px', marginTop: '-15px'}} />
           </Link>
         
+       
         <div className={nav.navLinks}>
+       
         <Link className={nav.navLink} href="/ciberseguranca">
         Consultoria em Cibersegurança 
       </Link>
-      <Link className={nav.navLink} href="/desenvolvimento">
-        Desenvolvimento Web 
-      </Link>
+
+          <Link className={nav.navLink} href="/desenvolvimento">
+            Desenvolvimento Web 
+          </Link>
           <Link className={nav.navLink} href="/portfolio">
           Portfólio
           </Link>
