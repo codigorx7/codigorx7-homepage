@@ -6,7 +6,6 @@ import Posts from '../app/components/feed';
 import Layout from '../app/layout';
 import Image from 'next/image';
 import Desenvolvimiento from '../../public/assets/images/desenvolvimiento.jpg';
-import Ciberseguranca from '../../public/assets/images/ciberseguranca.jpg';
 import Trabalhos from '../../public/assets/images/trabalhos.jpg';
 import Sobrenos from '../../public/assets/images/sobrenos.jpg';
 
@@ -101,9 +100,6 @@ const Index = () => {
         </div>
         <Link href="/desenvolvimento">
         <Image src={Desenvolvimiento} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
-        </Link>
-        <Link href="/ciberseguranca">
-        <Image src={Ciberseguranca} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />
         </Link>
         <Link href="/sobre-nos">
         <Image src={Sobrenos} alt="Consultoria em Ciberseguraca" className={styles.imgcards} />

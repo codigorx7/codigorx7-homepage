@@ -20,7 +20,7 @@ const footer = () => {
         </div>
         <div className={styles.footerMenu}>
           <ul className={styles.navLinks}>
-            <li className={styles.navLink}><Link href="/ciberseguranca">Consultoria em Cibersegurança</Link></li>
+            {/*<li className={styles.navLink}><Link href="/ciberseguranca">Consultoria em Cibersegurança</Link></li>*/}
             <li className={styles.navLink}><Link href="desenvolvimento">Desenvolvimento Web</Link></li>
             <li className={styles.navLink}><Link href="/portfolio">Portfolio</Link></li>
             <li className={styles.navLink}><Link href="/sobre-nos">Sobre nos</Link></li>

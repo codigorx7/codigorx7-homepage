@@ -199,7 +199,7 @@ export const img = style({
 });
 
 export const imgcards = style({
-  maxWidth: '100%',
+  width: '300px',
   height: 'auto',
   transition: 'box-shadow 0.3s, transform 0.3s',
   cursor: 'pointer',
@@ -209,7 +209,7 @@ export const imgcards = style({
 
   '@media': {
     '(max-width: 660px)': {
-      maxWidth: '90%',
+      maxWidth: '70%',
 
     },
   },

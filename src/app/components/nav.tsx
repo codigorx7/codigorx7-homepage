@@ -16,11 +16,11 @@ const Nav = () => {
         
        
         <div className={nav.navLinks}>
-       
+       {/*
         <Link className={nav.navLink} href="/ciberseguranca">
         Consultoria em Cibersegurança 
       </Link>
-
+        */}
           <Link className={nav.navLink} href="/desenvolvimento">
             Desenvolvimento Web 
           </Link>
